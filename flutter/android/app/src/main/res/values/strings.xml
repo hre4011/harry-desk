@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">HarryDesk</string>
-    <string name="accessibility_service_description">Allow harry tech admins devices to control your with your permission phone using virtual touch, when HarryDesk screen sharing is established</string>
+    <string name="accessibility_service_description">اجازه می دهد دستگاه های هریتک با تایید شما از طریق لمس مجازی کنترل شوند</string>
 </resources>

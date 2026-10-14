@@ -2384,7 +2384,7 @@ class _AboutState extends State<_About> {
       final scrollController = ScrollController();
       return SingleChildScrollView(
         controller: scrollController,
-        child: _Card(title: translate('About RustDesk'), children: [
+        child: _Card(title: 'درباره هری دسک', children: [
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -2403,22 +2403,22 @@ class _AboutState extends State<_About> {
                         .marginSymmetric(vertical: 4.0)),
               InkWell(
                   onTap: () {
-                    launchUrlString('https://rustdesk.com/privacy.html');
+                    launchUrlString('https://harrytech.ir');
                   },
                   child: Text(
-                    translate('Privacy Statement'),
+                    'وب سایت هریتک',
                     style: linkStyle,
                   ).marginSymmetric(vertical: 4.0)),
               InkWell(
                   onTap: () {
-                    launchUrlString('https://rustdesk.com');
+                    launchUrlString('https://harrytech.ir');
                   },
                   child: Text(
-                    translate('Website'),
+                    'هریتک',
                     style: linkStyle,
                   ).marginSymmetric(vertical: 4.0)),
               Container(
-                decoration: const BoxDecoration(color: Color(0xFF2c8cff)),
+                decoration: const BoxDecoration(color: Color(0xFF0E6593)),
                 padding:
                     const EdgeInsets.symmetric(vertical: 24, horizontal: 8),
                 child: SelectionArea(
@@ -2429,11 +2429,11 @@ class _AboutState extends State<_About> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'Copyright © ${DateTime.now().toString().substring(0, 4)} Purslane Ltd.\n$license',
+                            '© ${DateTime.now().toString().substring(0, 4)} هریتک\n$license',
                             style: const TextStyle(color: Colors.white),
                           ),
                           Text(
-                            translate('Slogan_tip'),
+                            'دسترسی امن و ساده به سیستم های شما',
                             style: TextStyle(
                                 fontWeight: FontWeight.w800,
                                 color: Colors.white),
